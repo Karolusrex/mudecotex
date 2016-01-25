@@ -1,0 +1,27 @@
+{
+  "name": "surpress",
+  "version": "1.0.0",
+  "description": "A decorator way for surpressing unintentional function calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karolusrex/surpress.git"
+  },
+  "keywords": [
+    "decorator",
+    "es6",
+    "mutex",
+    "surpress",
+    "asynchronous",
+    "event"
+  ],
+  "author": "Karl Lundfall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karolusrex/surpress/issues"
+  },
+  "homepage": "https://github.com/Karolusrex/surpress#readme"
+}
