@@ -1,7 +1,7 @@
 {
   "name": "mudecotex",
   "version": "1.0.0",
-  "description": "Surpress other function calls within your class",
+  "description": "Introducing decorators to control synchronisity",
   "main": "main.js",
   "dependencies": {
     "babel-cli": "^6.4.5",

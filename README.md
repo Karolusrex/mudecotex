@@ -1,7 +1,6 @@
 # Mudecotex
-Introducing decorators to control synchronisity
 
-#example
+#Example
 ```
 import {surpressedBy, mutex}     from '../src/mudecotex.js';
 
@@ -45,4 +44,17 @@ class Demo {
 
 let main = new Demo();
 
+```
+
+Output:
+
+```
+Doing some stuff.
+Done doing stuff!
+Doing more stuff.
+Done doing more stuff!
+Doing final stuff.
+Done final stuff!
+In foo, calling doFinalStuff
+Done. Calling doFinalStuff had no effect
 ```
