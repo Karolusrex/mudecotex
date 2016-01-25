@@ -1,5 +1,5 @@
 {
-  "name": "surpress",
+  "name": "mudecotex",
   "version": "1.0.0",
   "description": "Surpress other function calls within your class",
   "main": "main.js",
@@ -14,16 +14,16 @@
   },
   "scripts": {
     "example": "babel-node example/main.js",
-    "build": "babel src/mudecotex.js -o main.js",
+    "build": "babel src/mudecotex.js -o main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karolusrex/surpress.git"
+    "url": "git+https://github.com/Karolusrex/mudecotex.git"
   },
   "author": "Karl Lundfall",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Karolusrex/surpress/issues"
+    "url": "https://github.com/Karolusrex/mudecotex/issues"
   },
-  "homepage": "https://github.com/Karolusrex/surpress#readme"
+  "homepage": "https://github.com/Karolusrex/mudecotex#readme"
 }
