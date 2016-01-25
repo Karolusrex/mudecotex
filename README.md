@@ -2,7 +2,7 @@
 
 #Example
 ```
-import {surpressedBy, mutex}     from '../src/mudecotex.js';
+import {surpressedBy, mutex}     from 'mudecotex';
 
 class Demo {
 

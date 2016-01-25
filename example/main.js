@@ -2,7 +2,7 @@
  * Created by lundfall on 1/25/16.
  */
 
-import {surpressedBy, mutex}     from '../src/mudecotex.js';
+import {surpressedBy, mutex}     from 'mudecotex';
 
 class Demo {
 
