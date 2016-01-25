@@ -1,23 +1,27 @@
 {
   "name": "surpress",
   "version": "1.0.0",
-  "description": "A decorator way for surpressing unintentional function calls",
+  "description": "Surpress other function calls within your class",
   "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rm -rf lib",
+    "build": "browserify src/* -t babelify --outfile bundle.js",
+    "start": "node lib/main.js",
+    "prestart": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Karolusrex/surpress.git"
   },
-  "keywords": [
-    "decorator",
-    "es6",
-    "mutex",
-    "surpress",
-    "asynchronous",
-    "event"
-  ],
   "author": "Karl Lundfall",
   "license": "ISC",
   "bugs": {
